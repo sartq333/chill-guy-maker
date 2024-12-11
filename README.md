@@ -1,6 +1,6 @@
 # chill-guy-maker
 
-A fun project that lets you replace the face in a meme with another face using Python and Gradio. This project supports flipping the input image horizontally, precise control over face placement, and background transparency handling.
+A fun project that lets you replace the face in a meme with another face using Python and Gradio.
 
 Try out here: https://huggingface.co/spaces/Sartc/chillGuy_maker.
 As of now, you'll have to adjust the face_x, face_y, face_width and face_height parameters to get the desired results, but I'll try to automate them too in future. 
