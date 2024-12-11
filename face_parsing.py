@@ -165,7 +165,7 @@ def segmentation(input_img_path):
 3. background in the person's image is black, which is messing up with hair, fix that.
 """
 
-def integration_with_meme(input_img_path, face_x, face_y, face_width, face_height):
+def integration_with_meme(input_img_path, face_x, face_y, face_width, face_height, flip):
 
     person_image = segmentation(input_img_path)
     # person_image = Image.open('only_face.jpg')
@@ -186,8 +186,9 @@ def integration_with_meme(input_img_path, face_x, face_y, face_width, face_heigh
     # Resize the person's image to fit the face region
     person_resized = person_image.resize((face_width, face_height)).convert("RGBA")
 
-    person_resized = ImageOps.mirror(person_resized)
-
+    if flip:
+        person_resized = ImageOps.mirror(person_resized)
+        
     person_data = np.array(person_resized)
 
     r, g, b, a = person_data[..., 0], person_data[..., 1], person_data[..., 2], person_data[..., 3]
