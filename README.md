@@ -7,6 +7,8 @@ As of now, you'll have to adjust the face_x, face_y, face_width and face_height 
 
 ![This is how final output looks like:](https://github.com/user-attachments/assets/638ce7ed-3829-43c4-8195-e5d0666bfadc)
 
+![image](https://github.com/user-attachments/assets/4cacd0c2-ee81-4f5e-b6e0-74301958b1f6)
+
 ![SS from hugging face spaces:](https://github.com/user-attachments/assets/f026c195-f951-4bb0-af11-f5fcbdafcb91)
 
 
