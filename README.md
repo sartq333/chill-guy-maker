@@ -35,7 +35,10 @@ pip install -r requirements.txt
     python3 app.py
 ```
 
-Acknowledgments
+Acknowledgments:
+
    Segmentation model used in this project has been taken from here: https://huggingface.co/jonathandinu/face-parsing.
+
    Built with Gradio and PyTorch.
+   
    Inspired by dingboard.
