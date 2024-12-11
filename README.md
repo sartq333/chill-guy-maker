@@ -2,6 +2,9 @@
 
 A fun project that lets you replace the face in a meme with another face using Python and Gradio. This project supports flipping the input image horizontally, precise control over face placement, and background transparency handling.
 
+Try out here: https://huggingface.co/spaces/Sartc/chillGuy_maker.
+As of now, you'll have to adjust the face_x, face_y, face_width and face_height parameters, but I'll try to automate them too in future. 
+
 ![This is how final output looks like:](https://github.com/user-attachments/assets/638ce7ed-3829-43c4-8195-e5d0666bfadc)
 
 ![SS from hugging face spaces:](https://github.com/user-attachments/assets/f026c195-f951-4bb0-af11-f5fcbdafcb91)
@@ -22,19 +25,17 @@ A fun project that lets you replace the face in a meme with another face using P
    ```bash
    git clone https://github.com/sartq333/meme-face-replacer.git
    cd meme-face-replacer
-
-    Install the dependencies:
-
+   ```
+2. Install the dependencies:
+```bash
 pip install -r requirements.txt
-
-Launch the Gradio app:
-
+```
+3. Launch the Gradio app:
+```bash
     python3 app.py
-
-    Open the URL shown in your terminal to use the app.
-
+```
 
 Acknowledgments
-    Segmentation model used in this project has been taken from here: https://huggingface.co/jonathandinu/face-parsing.
-    Built with Gradio and PyTorch.
-    Inspired by dingboard.
+   Segmentation model used in this project has been taken from here: https://huggingface.co/jonathandinu/face-parsing.
+   Built with Gradio and PyTorch.
+   Inspired by dingboard.
