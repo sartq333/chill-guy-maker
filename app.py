@@ -18,7 +18,7 @@ interface = gr.Interface(
     outputs=gr.Image(type="pil", label="Result Image"),
     allow_flagging="never",
     title="Chill Guy Maker!",
-    description="Upload your image, adjust the face coordinates, and become a chill guy."
+    description="Upload your image, adjust the face coordinates, and become a chill guy. Upload your image, adjust the face coordinates, and become a chill guy. Check the project readme for more information: https://github.com/sartq333/chill-guy-maker/blob/main/README.md"
 )
 
 interface.launch()
