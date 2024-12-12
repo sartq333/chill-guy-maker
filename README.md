@@ -29,8 +29,8 @@ As of now, you'll have to adjust the face_x, face_y, face_width and face_height 
 
 1. Clone this repository:
    ```bash
-   git clone https://github.com/sartq333/meme-face-replacer.git
-   cd meme-face-replacer
+   git clone https://github.com/sartq333/chill-guy-maker.git
+   cd chill-guy-maker
    ```
 2. Install the dependencies:
 ```bash
