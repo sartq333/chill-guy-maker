@@ -45,6 +45,6 @@ Acknowledgments:
 
    Segmentation model used in this project has been taken from here: https://huggingface.co/jonathandinu/face-parsing.
 
-   Built with Gradio and PyTorch.
+   Built with Gradio, PyTorch and OpenCV.
    
    Inspired by dingboard.
