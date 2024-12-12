@@ -1,7 +1,7 @@
 import gradio as gr
 from face_parsing import integration_with_meme
 
-def replace_face(person_image, face_x, face_y, face_width, face_height):
+def replace_face(person_image, face_x, face_y, face_width, face_height, flip):
     result_image = integration_with_meme(input_img_path=person_image, face_x=face_x, face_y=face_y, face_width=face_width, face_height=face_height, flip=flip)
     return result_image
 
