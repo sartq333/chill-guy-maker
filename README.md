@@ -5,13 +5,14 @@ A fun project that lets you replace the face in a meme with another face using P
 Try out here: https://huggingface.co/spaces/Sartc/chillGuy_maker.
 As of now, you'll have to adjust the face_x, face_y, face_width and face_height parameters to get the desired results, but I'll try to automate them too in future. 
 
-![This is how final output looks like:](https://github.com/user-attachments/assets/638ce7ed-3829-43c4-8195-e5d0666bfadc)
+![image](https://github.com/user-attachments/assets/638ce7ed-3829-43c4-8195-e5d0666bfadc)
+
 ![image](https://github.com/user-attachments/assets/a7cb72bf-181d-47be-a494-6501ccb8dd52)
 
 ![image](https://github.com/user-attachments/assets/4cacd0c2-ee81-4f5e-b6e0-74301958b1f6)
 
-![SS from hugging face spaces:](![image](https://github.com/user-attachments/assets/21115774-4735-4583-ae4f-779d6c66a205)
-)
+![image](https://github.com/user-attachments/assets/21115774-4735-4583-ae4f-779d6c66a205)
+
 
 
 ---
