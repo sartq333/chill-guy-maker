@@ -2,6 +2,8 @@
 
 A fun project that lets you replace the face in a meme with another face using Python and Gradio.
 
+Download and save the [model weights](https://huggingface.co/jonathandinu/face-parsing) (config.json, model.safetensors, preprocessor_config.json) in the `face parsing` directory. 
+
 Try out here: https://huggingface.co/spaces/Sartc/chillGuy_maker.
 As of now, you'll have to adjust the face_x, face_y, face_width and face_height parameters to get the desired results, but I'll try to automate them too in future. 
 
